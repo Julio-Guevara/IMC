@@ -107,6 +107,7 @@ public class MainActivity extends AppCompatActivity
         Toast.makeText(this, texto, Toast.LENGTH_SHORT).show();
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
+
         return true;
     }
 }
