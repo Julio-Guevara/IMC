@@ -104,7 +104,6 @@ public class MainActivity extends AppCompatActivity
         if (cambio == true){
             getSupportFragmentManager().beginTransaction().replace(R.id.contenedor,f).commit();
         }
-
         Toast.makeText(this, texto, Toast.LENGTH_SHORT).show();
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
